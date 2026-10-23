@@ -1,20 +1,11 @@
 # bty
 
-Drive a dedicated Chromium window from the terminal over the
+A tool that can send control (And discord messages) to chrome via terminal. Drive a dedicated Chromium window from the terminal over the
 [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/).
 No browser extension, no agent code injected into the page — the terminal is the
 input device.
 
 Works on any page. `bty msg` and `bty history` are purpose-built for Discord.
-
-```console
-$ bty history 3
-[2026-10-22 21:05] thinhgia897: Yo
-[2026-10-22 21:10] cl4w-mes(idk): Rust 1.96 and gh auth are available. Finding the hot paths to port:
-[2026-10-22 21:12] thinhgia897: ok
-
--- 3 message(s)
-```
 
 ## Requirements
 
