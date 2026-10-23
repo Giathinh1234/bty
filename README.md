@@ -7,6 +7,9 @@ input device.
 
 Works on any page. `bty msg` and `bty history` are purpose-built for Discord.
 
+> **AI agent reading this?** Read [`AGENTS.md`](AGENTS.md) first — install,
+> commands, safety rules, and troubleshooting.
+
 ## Requirements
 
 - **Node.js 22 or newer** — it uses the built-in `WebSocket` and `fetch`.
@@ -183,15 +186,22 @@ Slate-based editors.
 
 ## Using it from an AI agent
 
-`bty` is a plain CLI, so any agent with shell access can drive it. The
-[`skill/SKILL.md`](skill/SKILL.md) file is an Agent Skill that documents the
-workflow.
+`bty` is a plain CLI, so any agent with shell access can drive it. Two files
+carry the instructions, and they say the same thing:
 
-- **OpenCode:** copy it to `~/.config/opencode/skills/bty/SKILL.md`
-  (or `~/.config/opencode/skill/bty/SKILL.md`).
-- **Claude Code:** copy it to `~/.claude/skills/bty/SKILL.md`.
-- **Anything else:** paste it into the system prompt, or point the agent at the
-  file.
+- **[`AGENTS.md`](AGENTS.md)** — plain markdown. Works with any agent that can
+  read a file, and is picked up automatically by tools that look for
+  `AGENTS.md` (Codex, Cursor, OpenCode, and others).
+- **[`skill/SKILL.md`](skill/SKILL.md)** — an Agent Skill with frontmatter.
+
+If you are unsure which to use, point the agent at `AGENTS.md`. For a
+skill-aware harness:
+
+- **OpenCode:** copy `skill/` to `~/.config/opencode/skills/bty/`
+  (or `~/.config/opencode/skill/bty/`).
+- **Claude Code:** copy it to `~/.claude/skills/bty/`.
+- **Anything else:** paste `AGENTS.md` into the system prompt, or let the agent
+  read it from the repo.
 
 Guardrails worth keeping:
 
