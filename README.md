@@ -48,12 +48,14 @@ Check the install:
 bty help
 ```
 
-### Copy just the file
+### Download the file
 
-If you do not want a clone, grab the single script:
+If you do not want a clone, download `bty.mjs` from
+[Releases](https://github.com/Giathinh1234/bty/releases):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Giathinh1234/bty/main/bty.mjs \
+mkdir -p ~/.local/bin
+curl -fsSL https://github.com/Giathinh1234/bty/releases/latest/download/bty.mjs \
   -o ~/.local/bin/bty
 chmod +x ~/.local/bin/bty
 ```
