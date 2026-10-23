@@ -258,6 +258,9 @@ If the browser is not in the auto-detected list, set `BTY_BROWSER`:
 export BTY_BROWSER="/Applications/Chromium.app/Contents/MacOS/Chromium"
 ```
 
+## NOTES:
+This isnt part of the list of SimpleApp type (SNLauncher, SMLauncher) This is a seperate thing.
+
 ## License
 
 MIT
