@@ -205,7 +205,11 @@ Guardrails worth keeping:
 `bty` types as you in a real browser session. On Discord, automating a user
 account is against their Terms of Service — the same is true of most services
 that offer no official automation API. Use it on your own account, keep the
-window visible, and prefer `--draft` so a human presses Enter.
+window visible, and prefer `--draft` so a human presses Enter. And this tool
+cannot be used as a way to mimic a real account using bots nor doing illegal things.
+I dont intended to make this tools as a illegal tools to be used for scam, harassment,
+etc.
+I will not take any accountability nor responsibility that the user of this tools cause.
 
 ## Implementation notes
 
