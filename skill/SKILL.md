@@ -9,7 +9,7 @@ description: Drive a dedicated Chromium window from the terminal over CDP. Use w
 No extension, no browser-side agent code. It is a CLI, so any agent with shell
 access can use it.
 
-Binary: `bty` on your `PATH` (see the README to install it)
+Binary: `bty` on your `PATH` (this machine: `~/.local/bin/bty` → `~/tools/bty/bty.mjs`)
 Profile: `~/.bty/profile` — a separate Chrome profile, so the session is
 isolated from the user's everyday browsing.
 
